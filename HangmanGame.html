@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="word-list.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="game-modal">
+        <div class="content">
+            <h4>Game Over!</h4>
+            <p>The correct word was: <b>sisoy</b></p>
+            <button class="play-again">Play Again</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman-box">
+            <img src="hangman_0.png" alt="hangman-img">
+            <h1>Hangman Game</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-display"></ul>
+            <h4 class="guesses-text">
+                Incorrect letters:
+                <b>0 / 8</b>
+            </h4>
+            <div class="keyboard"></div>
+        </div>
+
+    </div>
+</body>
+</html>
